@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Slide Flow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-wrapper">
+    <header class="main-header">
+      <h1>Slide Flow</h1>
+      <p>Swipe or click to navigate through the slides</p>
+    </header>
+
+    <div class="slider-container">
+      <div class="slider" id="slider">
+        <div class="slide" style="background-image: url('images/pic1.jpg');"></div>
+        <div class="slide" style="background-image: url('images/pic2.jpg');"></div>
+        <div class="slide" style="background-image: url('images/pic3.jpg');"></div>
+      </div>
+
+      <button class="nav-btn prev" onclick="moveSlide(-1)">❮</button>
+      <button class="nav-btn next" onclick="moveSlide(1)">❯</button>
+
+      <div class="dots" id="dots"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
