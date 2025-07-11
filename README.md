@@ -3,15 +3,12 @@
 A smooth, responsive, and modern image slider built with **HTML**, **CSS**, and **JavaScript**.  
 Supports click navigation, swipe gestures, auto-sliding, and responsive design.
 
-🔗 **Live Demo:** [https://slideflow.netlify.app](https://slideflow.netlify.app) *(Update with your real Netlify link)*
-
 ---
 
 ## ✨ Features
 
-- 🔁 Auto slide with `setInterval`
 - ⬅️➡️ Left/Right navigation buttons
-- 📱 Swipe gesture support (mobile-friendly)
+- 📱 Swipe gesture support 
 - 🔘 Clickable dots/indicators
 - ⚡ Smooth CSS sliding animation
 - 🎯 Fully responsive layout
@@ -31,10 +28,7 @@ Slide-Flow/
 
 ---
 
-## 🚀 Getting Started
+ ## 🌐 Live Demo
 
-### 1. Clone the repo
+🔗 [View Live on Netlify](https://slide-flow.netlify.app)
 
-```bash
-git clone https://github.com/jaiprakash-k/Slide-Flow.git
-cd Slide-Flow
